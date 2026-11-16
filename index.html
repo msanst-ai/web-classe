@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina web digitalización</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale=1.0"
+    />
+    <title>Formació online</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -106,7 +114,33 @@
         </section>
         <section>
           <h2>Contacte</h2>
-          <!-- aquí hi anirà el formulari -->
+          <form>
+            <fieldset>
+              <legend>Contacta amb nosaltres omplint tots els camps</legend>
+
+              <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="El teu nom" />
+              </div>
+
+              <div>
+                <label for="correu">Correu</label>
+                <input type="email" id="correu" placeholder="El teu correu" />
+              </div>
+
+              <div>
+                <label for="telefon">Telèfon</label>
+                <input type="tel" id="telefon" placeholder="El teu telèfon" />
+              </div>
+
+              <div>
+                <label for="missatge">Missatge</label>
+                <textarea id="missatge"></textarea>
+              </div>
+
+              <input type="submit" value="Enviar" />
+            </fieldset>
+          </form>
         </section>
       </main>
     </header>
